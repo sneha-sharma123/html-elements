@@ -156,21 +156,6 @@ We hope they succeed.</p>
 the paragraph below will break:</p>
 
 <p>This is so bigbigbigbigbigbigbigbigbigbigbigbigbigbig<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <img src="../img/hh.jpg" alt="adventure" usemap="#mymap" width="50%" >
         <map name="mymap">
             <area shape="rect" coords="438,294,961,495" href="../img/mountains.jpg" title="myrectangle">
@@ -187,6 +172,75 @@ the paragraph below will break:</p>
             <circle cx="50" cy="50" r="40" stroke="brown" stroke-width="4" fill="red" />
             Sorry, your browser does not support inline SVG.
           </svg>
+          <!--form elements-->         
+          <form action="#" method="post">
+            <label for="fname"><b>First name</b></label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" id="lame" name="lname"><br><br> 
+            <label for="Stream"><b>Stream</b></label>
+            <input type="text" id="Stream" name="Stream"><br><br>                 
+            <input type="Checkbox" id="language1" name="language1" value="Python">
+            <label for="language1"> Python </label><br><br>
+            <input type="Checkbox" id="language2" name="language2" value="Java">
+            <label for="language2"> Java</label><br><br>           
+            <label for="favcolor"> Select your favorite color</label>  
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>  
+            <label for="DOB">DOB </label> 
+            <input type="Date" id="DOB" name="DOB"><br><br>
+            <label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+            <label for="Email"> Enter your Email</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="hidden" id="custid" name="custid" value="3456">
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd"><br><br>
+            <input type="image" src="../img/submit 2.gif" alt="button" width="48" height="48">
+            <p>Please select your favorite  language:</p>
+            <input type="radio" id="Java" name="fav_language" value="HTML">
+            <label for="Java">Java</label><br>
+            <input type="radio" id="Python" name="fav_language" value="CSS">
+            <label for="Python">Python</label><br>
+            <input type="radio" id="C++" name="fav_language" value="JavaScript">
+            <label for="C++">C++</label>
+            <br>  
+            <p>Please select your age:</p>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label><br>  
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label><br><br>
+            <label for="vol">Volume (between 0 and 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="pin">Enter a PIN</label>
+            <input type="text" id="pin" name="pin" maxlength="4"><br><br>  
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><br><br>
+            <label for="gsearch">Search Google:</label>
+            <input type="search" id="gsearch" name="gsearch"><br><br>
+            <label for="homepage">Add your homepage</label>
+            <input type="URL" id="homepage" name="homepage"><br><br>
+            <input type="submit" value="Submit">
+            <label for="week">week</label>
+
+
+                         
+            </form>
+
+
+          
+          
         <script src="" async defer></script>
     </body>
 </html>
